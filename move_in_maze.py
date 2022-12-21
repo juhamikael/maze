@@ -71,7 +71,6 @@ class MoveInMaze:
 
     def solve_maze(self):
         self.get_start_positions()
-        print(self.start_positions, self.maze_to_solve)
         if not self.start_positions:
             return False
 
