@@ -125,8 +125,6 @@ class TestCreateMaze:
         (path / temp_file_name).unlink()
         (path / Path("mazes")).rmdir()
 
-        # Returns the matrix which is used in the test_get_maze function
-
     def test_get_maze(self):
         """Test that the get_maze function returns the correct maze"""
         # Set up test data
