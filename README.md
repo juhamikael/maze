@@ -14,6 +14,8 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Unzip `mazes-to-solve.zip` 
+
 ### More info about packages
 [Pypi Blessed](https://pypi.org/project/blessed/)  
 [Pypi Pytest](https://pypi.org/project/pytest/)
@@ -45,8 +47,7 @@ Where:
 The name of the file should be in the format of 'maze-task-xyz.txt', where 'xyz' is the number of the maze.  
 The program will read the maze from the file and turn it into 1's and 0's.
 
-## It is recommend to create a new folder e.g. `mazes-to-solve` inside project folder and move the mazes inside that folder.
-## Before running the program, change the path in the `config.ini` file to the folder where the mazes are located e.g. mazes-to-solve . 
+## Before running the program, change the path in the `config.ini` file to unzipped mazes-to-solve folder. 
 
 # run the program with command `python run.py`
 
