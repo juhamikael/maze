@@ -1,3 +1,12 @@
+# Download
+```
+git clone https://github.com/juhamikael/maze.git
+```
+
+If you download via Zip, change the folder/file name from `maze-main` back to `maze` 
+
+### Locate the downloaded folder in your machhine
+
 # Install
 ```
 python -m venv venv
@@ -36,9 +45,10 @@ Where:
 The name of the file should be in the format of 'maze-task-xyz.txt', where 'xyz' is the number of the maze.  
 The program will read the maze from the file and turn it into 1's and 0's.
 
-Before running the program, change the path in the `config.ini` file to the folder where the mazes are located.
+## It is recommend to create a new folder e.g. `mazes-to-solve` inside project folder and move the mazes inside that folder.
+## Before running the program, change the path in the `config.ini` file to the folder where the mazes are located e.g. mazes-to-solve . 
 
-run the program with `python run.py`
+# run the program with command `python run.py`
 
 First, the program asks for the name of the player, and checks if there are any mazes in the folder.  
 If so, the user is redirected to the menu screen, where they can choose:
