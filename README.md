@@ -5,7 +5,7 @@ git clone https://github.com/juhamikael/maze.git
 
 If you download via Zip, change the folder/file name from `maze-main` back to `maze` 
 
-### Locate the downloaded folder in your machhine
+### Locate and open the downloaded folder in your machine
 
 # Install
 ```
